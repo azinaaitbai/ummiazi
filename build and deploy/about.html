@@ -19,7 +19,7 @@
 
   <body>
     <section id="header">
-      <a href="index.html"><img src="img/logo.png" class="logo" alt="" /></a>
+      <a href="index.html">Bayden.</a>
 
       <div>
         <ul id="navbar">
@@ -42,11 +42,16 @@
         </a>
         <i id="bar" class="fas fa-outdent"></i>
       </div>
+
+      <button onclick="toggleDarkMode()">Mode</button>
     </section>
 
     <section id="page-header" class="about-header">
       <h2>#KnowUs</h2>
-      <p>Lorem Ipsum dolor sit amet, consectur</p>
+      <p>
+        Browse our selection of high-quality cars, meticulously inspected to
+        ensure reliability and performance.
+      </p>
     </section>
 
     <section id="about-head" class="section-p1">
@@ -54,14 +59,16 @@
       <div>
         <h2>Who We Are?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          lectus risus, finibus ornare vestibulum et, feugiat quis dui. Vivamus
-          sit amet dolor et magna facilisis rhoncus. Curabitur maximus est sed
-          porta scelerisque. Sed suscipit, arcu volutpat feugiat posuere, eros
-          nisi tristique nibh, mollis vehicula lectus tortor eu purus. Donec ut
-          tortor blandit, sagittis diam eget, suscipit eros. Quisque at magna
-          neque. Nulla faucibus mi at nunc mattis placerat. Pellentesque quis
-          augue quis elit tristique auctor.
+          Catering to the discerning automotive enthusiast, Bayden is your
+          premier destination for exceptional vehicles and unparalleled service.
+          With a commitment to excellence and a passion for all things
+          automotive, we strive to exceed expectations at every turn. Our team
+          of experts is dedicated to providing personalized attention, guiding
+          you through every step of the car-buying journey with professionalism
+          and integrity. Whether you're in search of luxury, performance, or
+          practicality, we offer a curated selection of top-quality vehicles to
+          suit every taste and need. Discover the difference with Baydden, where
+          your satisfaction is our highest priority.
         </p>
 
         <abbr title=" "
@@ -75,13 +82,6 @@
           >Create stunning images with as much or as little control as you like
           thanks to a choice of Basic and Creative Modes.</marquee
         >
-      </div>
-    </section>
-
-    <section id="about-app" class="section-p1">
-      <h1>Download Our <a href="#">App</a></h1>
-      <div class="video">
-        <video autoplay muted loop src="img/about/1.mp4"></video>
       </div>
     </section>
 
@@ -128,7 +128,7 @@
 
     <footer class="section-p1">
       <div class="col">
-        <img class="logo" src="img/logo.png" alt="" />
+        <h2>Bayden.</h2>
         <h4>Contact</h4>
         <p>
           <strong>Address:</strong> 562 Wellington Road, Street 32, San
@@ -181,6 +181,8 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+      applyDarkModeOnLoad();
+    </script>
   </body>
 </html>

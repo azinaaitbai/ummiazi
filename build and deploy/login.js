@@ -1,9 +1,4 @@
 const loginBtn = document.getElementById("loginBtn");
-
-document.getElementById("loginBtn").addEventListener("click", function () {
-  window.location.href = "index.html";
-});
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
 import {

@@ -19,7 +19,7 @@
   <!-- were it is -->
   <body>
     <section id="header">
-      <a href="index.html"><img src="img/logo.png" class="logo" alt="" /></a>
+      <a href="index.html">Bayden.</a>
 
       <div>
         <ul id="navbar">
@@ -42,9 +42,36 @@
         </a>
         <i id="bar" class="fas fa-outdent"></i>
       </div>
+
+      <button onclick="toggleDarkMode()">Mode</button>
     </section>
 
-    <section id="hero">
+    <div class="container">
+      <div class="mySlides">
+        <img src="img/fon1.png" style="width: 100%; height: 56rem" />
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fon2.png" style="width: 100%; height: 56rem" />
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fon3.png" style="width: 100%; height: 56rem" />
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fon4.png" style="width: 100%; height: 56rem" />
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fon5.png" style="width: 100%; height: 56rem" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <section class="position" id="hero">
       <h4>Trade-in-offer</h4>
       <h2>Super value deals</h2>
       <h1>On all products</h1>
@@ -80,14 +107,14 @@
     </section>
 
     <section id="product1" class="section-p1">
-      <h2>Featured Products</h2>
-      <p>Summer Collection New Morden Design</p>
+      <h2>Cars</h2>
+      <p>Types</p>
       <div class="pro-container">
         <div class="pro">
-          <img src="img/products/f1.jpg" alt="" />
+          <img src="img/products/Mercedes-Benz S-Class.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Mercedes-Benz S-Class</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -101,10 +128,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f2.jpg" alt="" />
+          <img src="img/products/product4.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Ford Mustang</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -118,10 +145,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f3.jpg" alt="" />
+          <img src="img/products/Chevrolet Corvette.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Chevrolet Corvette</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -135,10 +162,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f4.jpg" alt="" />
+          <img src="img/products/Ferrari LaFerrari.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Ferrari LaFerrari</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -152,10 +179,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f5.jpg" alt="" />
+          <img src="img/products/Lamborghini Aventador.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Lamborghini Aventador</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -169,10 +196,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f6.jpg" alt="" />
+          <img src="img/products/Porsche 911.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Porsche 911</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -186,10 +213,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f7.jpg" alt="" />
+          <img src="img/products/Bugatti Veyron.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Bugatti Veyron</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -203,10 +230,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/f8.jpg" alt="" />
+          <img src="img/products/McLaren P1.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>McLaren P1</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -223,19 +250,31 @@
 
     <section id="banner" class="section-m1">
       <h4>Repair Services</h4>
-      <h2>Up to <span>70% Off</span> - All t-shirts & Accessories</h2>
-      <button class="normal" onclick="openPopup()">Explore More</button>
+      <h2>Up to <span>70% Off</span> - All cars</h2>
+      <button class="normal" id="exploreBtn">Explore More</button>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          Discover Your Perfect Ride Today! Browse Our Selection of Quality Cars
+          for Sale.
+        </p>
+      </div>
+    </div>
 
     <section id="product1" class="section-p1">
       <h2>New Arrivals</h2>
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
         <div class="pro">
-          <img src="img/products/n1.jpg" alt="" />
+          <img src="img/products/Toyota Prius.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Toyota Prius</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -249,10 +288,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n2.jpg" alt="" />
+          <img src="img/products/Volkswagen Beetle.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Volkswagen Beetle</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -266,10 +305,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n3.jpg" alt="" />
+          <img src="img/products/Jeep Wrangler.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Jeep Wrangler</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -283,10 +322,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n4.jpg" alt="" />
+          <img src="img/products/Tesla Model S.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Tesla Model S</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -300,10 +339,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n5.jpg" alt="" />
+          <img src="img/products/Subaru Impreza.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Subaru Impreza</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -317,10 +356,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n6.jpg" alt="" />
+          <img src="img/products/Nissan GT-R.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Nissan GT-R</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -334,10 +373,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n7.jpg" alt="" />
+          <img src="img/products/Aston Martin DB5.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Aston Martin DB5</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -351,10 +390,10 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n8.jpg" alt="" />
+          <img src="img/products/Rolls-Royce Phantom.jpg" alt="" />
           <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
+            <span>car</span>
+            <h5>Rolls-Royce Phantom</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -373,13 +412,13 @@
       <div class="banner-box">
         <h4>crazy deals</h4>
         <h2>buy 1 get 1 free</h2>
-        <span>The best classic dress is on sale at cara</span>
+        <span>The best classic car is on sale</span>
         <button class="white">Learn more</button>
       </div>
       <div class="banner-box banner-box2">
         <h4>spring/summer</h4>
         <h2>umcoming season</h2>
-        <span>The best classic dress is on sale at cara</span>
+        <span>The best car is on sale</span>
         <button class="white">Collection</button>
       </div>
     </section>
@@ -387,15 +426,15 @@
     <section id="banner3">
       <div class="banner-box">
         <h2>SEASONAL SALE</h2>
-        <h3>Winter Collection -50% OFF</h3>
+        <h3>-50% OFF</h3>
       </div>
       <div class="banner-box banner-box2">
-        <h2>NEW FOOTWEAR COLLECTION</h2>
-        <h3>Spring / Summer 2022</h3>
+        <h2>NEW</h2>
+        <h3>Spring / Summer 2024</h3>
       </div>
       <div class="banner-box banner-box3">
-        <h2>T-SHIRTS</h2>
-        <h3>New Trendy Prints</h3>
+        <h2>Cars</h2>
+        <h3>New Trendy Cars</h3>
       </div>
     </section>
 
@@ -415,7 +454,7 @@
 
     <footer class="section-p1">
       <div class="col">
-        <img class="logo" src="img/logo.png" alt="" />
+        <h2>Bayden.</h2>
         <h4>Contact</h4>
         <p>
           <strong>Address:</strong> 562 Wellington Road, Street 32, San
@@ -468,6 +507,8 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+      applyDarkModeOnLoad();
+    </script>
   </body>
 </html>

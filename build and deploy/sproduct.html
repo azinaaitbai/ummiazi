@@ -19,7 +19,7 @@
 
   <body>
     <section id="header">
-      <a href="index.html"><img src="img/logo.png" class="logo" alt="" /></a>
+      <a href="index.html">Bayden.</a>
 
       <div>
         <ul id="navbar">
@@ -42,16 +42,23 @@
         </a>
         <i id="bar" class="fas fa-outdent"></i>
       </div>
+
+      <button onclick="toggleDarkMode()">Mode</button>
     </section>
 
     <section id="prodetails" class="section-p1">
       <div class="single-pro-image">
-        <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="" />
+        <img
+          src="img/products/Volkswagen Beetle.jpg"
+          width="100%"
+          id="MainImg"
+          alt=""
+        />
 
         <div class="small-img-group">
           <div class="small-img-col">
             <img
-              src="img/products/f1.jpg"
+              src="img/products/Bugatti Veyron.jpg"
               width="100%"
               class="small-img"
               alt=""
@@ -59,7 +66,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="img/products/f2.jpg"
+              src="img/products/Chevrolet Corvette.jpg"
               width="100%"
               class="small-img"
               alt=""
@@ -67,7 +74,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="img/products/f3.jpg"
+              src="img/products/Ferrari LaFerrari.jpg"
               width="100%"
               class="small-img"
               alt=""
@@ -75,7 +82,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="img/products/f4.jpg"
+              src="img/products/Jeep Wrangler.jpg"
               width="100%"
               class="small-img"
               alt=""
@@ -85,26 +92,31 @@
       </div>
 
       <div class="single-pro-details">
-        <h6>Home / T-Shirt</h6>
-        <h4>Men's Fashion T Shirt</h4>
+        <h6>Home / Car</h6>
+        <h4>Volkswagen Beetle</h4>
         <h2>$139.00</h2>
         <select>
           <option>Select Size</option>
-          <option>XL</option>
-          <option>XXL</option>
-          <option>Small</option>
-          <option>Large</option>
+          <option>Subcompact</option>
+          <option>Compact</option>
+          <option>Midsize</option>
+          <option>Full-size</option>
         </select>
         <input type="number" value="1" />
         <button class="normal">Add To Cart</button>
         <h4>Product Details</h4>
         <span
-          >The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz.
-          per sq. yd. fabric constructed from 100% cotton, this classic fit
-          freshrunk jersey knit provides unmatched comfort with each wear.
-          Featuring a taped neck and shoulder, and a seamless double-needle
-          collar, and available in a range, of colors, it offers it all in the
-          ultimate head-turning package.
+          >The Volkswagen Beetle, affectionately known as the "Bug," emerged
+          from Ferdinand Porsche's design vision in the 1930s as a response to
+          Adolf Hitler's call for an affordable "People's Car." Its distinctive
+          rounded shape and rear-engine layout made it instantly recognizable on
+          roads worldwide. Throughout its production, the Beetle became
+          synonymous with reliability, simplicity, and affordability, capturing
+          the hearts of drivers and earning its place as a cultural icon.
+          Despite its enduring popularity, Volkswagen ceased production of the
+          Beetle in 2019, marking the end of an era for one of the most iconic
+          cars in automotive history. Today, the Volkswagen Beetle's legacy
+          lives on as a symbol of freedom, individuality, and timeless design.
         </span>
       </div>
     </section>
@@ -114,7 +126,7 @@
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
         <div class="pro">
-          <img src="img/products/n1.jpg" alt="" />
+          <img src="img/products/McLaren P1.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -131,7 +143,7 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n2.jpg" alt="" />
+          <img src="img/products/Nissan GT-R.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -148,7 +160,7 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n3.jpg" alt="" />
+          <img src="img/products/Porsche 911.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -165,7 +177,7 @@
         </div>
 
         <div class="pro">
-          <img src="img/products/n4.jpg" alt="" />
+          <img src="img/products/Subaru Impreza.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -199,7 +211,7 @@
 
     <footer class="section-p1">
       <div class="col">
-        <img class="logo" src="img/logo.png" alt="" />
+        <h2>Bayden.</h2>
         <h4>Contact</h4>
         <p>
           <strong>Address:</strong> 562 Wellington Road, Street 32, San
@@ -273,6 +285,8 @@
       };
     </script>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+      applyDarkModeOnLoad();
+    </script>
   </body>
 </html>
